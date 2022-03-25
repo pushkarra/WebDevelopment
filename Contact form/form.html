@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form_style.css">
+    <title>Sample Contact Form</title>
+</head>
+<body>
+
+    <form action="#">
+        <div class="container">
+          <div class="room">
+           <h1>CONTACT FORM</h1>
+           <h5>Please fill all the texts in the field given below.</h5>
+          </div>
+        
+
+        <br>
+        <div class="room2">
+
+        <p>Your Name:* <input type="text" name="name" placeholder="Please input your full name here"  required></p>
+
+        <fieldset>
+            <legend>Gender:*</legend>
+            <p>
+                Male: <input type="radio" name="gender" required id="male">
+            Female: <input type="radio" name="gender" required id="female">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>E-Mail:</legend>
+            <p><input type="email" name="email" placeholder="Enter valid email address"></p>
+        </fieldset>
+
+        <p>Message: <textarea name="message" placeholder="Your Message To Us" id="message" cols="100" rows="8"></textarea></p>
+
+        <p>Subject:* <input type="text" required placeholder="Job Enquiry" name="subject"></p>
+
+        <input type="submit" value="Send">
+
+        </div>
+
+        </div>
+
+    </form>
+        
+    
+    
+    
+</body>
+</html>
