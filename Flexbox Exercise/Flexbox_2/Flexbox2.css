@@ -1,0 +1,41 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    background-color: lightcoral;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container nav{
+    background-color: lightgreen;
+    color: black;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 700px;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    flex-grow: 3;
+    border-radius: 5px;
+  }
+
+header{
+    background-color: lightblue;
+    height: 100px;
+}
+article{
+    background-color: lightpink;
+    height: 500px;
+}
+footer{
+    background-color: lightsalmon;
+    height: 100px;
+}
